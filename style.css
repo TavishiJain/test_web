@@ -1,0 +1,130 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    padding:14px;
+    font-size: 20px;
+    font-family: "sans-serif";
+    font-weight:400;
+    color: #ffffff;
+    margin-left: 15px;
+ 
+
+    
+}
+
+
+ .index-bg{
+    background-image: url("images/background.origami.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    font-family:sans-serif;
+}
+
+.grid img{
+
+border: 2px solid #e62902;
+border-radius:50px;
+}
+
+.origami{
+
+border-radius: 20px;
+padding: 28px;
+margin: 25px;
+width:310px;
+font-size: 35px;
+font-family: "chiller";
+}
+
+.about{
+  border-radius: 28px ;
+  font-size: 20px;
+font-family: "impact"
+}
+
+.about-bg{
+  background-image: url("images/background.1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.follow-bg{
+  background-image: url("images/background.2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+.know{
+
+  border-radius: 25px;
+  font-size: 25px;
+  font-family: "impact";
+}
+
+.thankyou{
+
+  border-radius: 25px;
+  font-size: 25px;
+  color:#e62902;
+  font-family: "impact";
+}
+
+.yt{
+
+  border-radius: 25px;
+  font-size: 25px;
+  font-family: "impact";
+}
+
+.facebook{
+
+  border-radius: 25px;
+  font-size: 25px;
+  font-family: "impact";
+}
+
+.tq{
+
+  border-radius: 25px;
+  font-size: 25px;
+  color:#000000;
+  font-family: "impact";
+}
+
+a:link{
+  color: white;
+} 
+
+a:visited{
+  color:cyan;
+  
+}
+
+.origami p{
+
+  position:absolute;
+ top:20%;
+ left:20%;
+ transform: translate(-50%,-50%);
+ opacity: 0;
+
+}
+
+.origami:hover p{
+  
+  
+  opacity:1;
+}
+
+.origami:hover img{
+ opacity:0.33; 
+
+}
